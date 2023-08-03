@@ -2,12 +2,12 @@
 1	35	0	CMakeFiles/database	3229d0a31287e0f0
 1401	1702	7127847305237106	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/User/stm32f10x_it.o	aeb1052bdbf4c58
 1	35	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/tmp/Project/Target_1/CMakeFiles/database	3229d0a31287e0f0
+1280	1620	7127847304353864	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Start/system_stm32f10x.o	56b0d669ab741a60
 458	843	7127847296599503	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_exti.o	478f081dc353025
 16	347	7127847291689225	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Hardware/Key.o	81aa99fea6d14c83
 1188	1662	7127847304760311	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_spi.o	f14c75ae5891e865
-1280	1620	7127847304353864	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Start/system_stm32f10x.o	56b0d669ab741a60
-9	458	7127847292127574	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Hardware/IIC.o	2dab78e49b3e3b12
 33	376	7127847291919205	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_bkp.o	d391ed670e18426b
+9	458	7127847292127574	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Hardware/IIC.o	2dab78e49b3e3b12
 64	358	7127847291749200	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Library/misc.o	7854b9d543a91f2c
 843	1265	7127847300376444	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_gpio.o	94f013be5d8bfdc5
 24	438	7127847292019279	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Hardware/MPU6050.o	be463b30244372b9
@@ -33,6 +33,8 @@
 893	1401	7127847301718163	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_rcc.o	ad5440185c00d65b
 1265	1567	7127847303841434	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/Start/core_cm3.o	e6377908b172341b
 1345	1681	7127847304951795	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_wwdg.o	6336612441d4c7c5
-5	168	7127879819511854	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/User/main.o	87a48d2f3be8b8da
+3	145	7127886787087742	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/User/main.o	87a48d2f3be8b8da
 1254	1798	7127847306185553	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/10-1_Read_MPU6050_via_Software/Library/stm32f10x_tim.o	8909a46472bc3a44
-169	350	7127879821357751	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/out/Project/Target_1/Project.axf	982186c49bd0ceec
+146	259	7127886788220932	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/out/Project/Target_1/Project.axf	982186c49bd0ceec
+4	150	7127888436383641	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/10-1_Read_MPU6050_via_Software/User/main.o	87a48d2f3be8b8da
+151	263	7127888437547248	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/out/Project/Target_1/Project.axf	982186c49bd0ceec
