@@ -8,7 +8,9 @@ int main(void)
 	OLED_Init();
 	MPU6050_Init();
 	OLED_ShowString(4, 16, "T");
-	uint8_t ID=MPU6050_ReadReg(0x75);
+	MPU6050_WriteReg(0x6B, 0x00);//解除休眠状态
+	MPU6050_WriteReg(0x19, 0xAA);
+	uint8_t ID=MPU6050_ReadReg(0x19);
 	OLED_ShowHexNum(1, 1, ID, 2);
 	while (1)
 	{

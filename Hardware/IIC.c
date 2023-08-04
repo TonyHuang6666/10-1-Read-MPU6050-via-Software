@@ -86,10 +86,10 @@ uint8_t IIC_ReceiveByte(void)
     IIC_W_SDA(1);//为了避免主机干扰从机写入数据，先释放SDA(也相当于切为输入模式)
     for(i=0;i<8;i++)
     {
-        Byte<<=1;//数据左移一位
         IIC_W_SCL(1);//释放SCL
         Byte|=IIC_R_SDA();//读取数据的最高位。|= 是按位或赋值运算符，它将左和右按位或后再赋值给左
         IIC_W_SCL(0);//拉低SCL
+        Byte<<=1;//数据左移一位
     }
     return Byte;
 }
