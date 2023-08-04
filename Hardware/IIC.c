@@ -1,6 +1,6 @@
 #include "stm32f10x.h"
 #include "Delay.h"
-
+#define Delay_Time 1
 //对于主频高的单片机，不建议使用宏定义
 
 void IIC_Init(void)
@@ -21,21 +21,21 @@ void IIC_Init(void)
 void IIC_W_SCL(uint8_t BitValue)//写SCL引脚电平
 {
     GPIO_WriteBit(GPIOB, GPIO_Pin_10, (BitAction)BitValue);
-    Delay_ms(10);
+    Delay_ms(Delay_Time);
     //对于f103系列，即使不加延时函数引脚的电平翻转速度MPU6050也跟得上
 }
 
 void IIC_W_SDA(uint8_t BitValue)//写SDA引脚电平
 {
     GPIO_WriteBit(GPIOB, GPIO_Pin_11, (BitAction)BitValue);
-    Delay_ms(10);
+    Delay_ms(Delay_Time);
 }
 
 uint8_t IIC_R_SCL(void)//读SCL引脚电平
 {
     uint8_t BitValue;
     BitValue = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_10);
-    Delay_ms(10);
+    Delay_ms(Delay_Time);
     return BitValue;
 }
 
@@ -43,7 +43,7 @@ uint8_t IIC_R_SDA(void)//读SDA引脚电平
 {
     uint8_t BitValue;
     BitValue = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11);
-    Delay_ms(10);
+    Delay_ms(Delay_Time);
     return BitValue;
 }
 

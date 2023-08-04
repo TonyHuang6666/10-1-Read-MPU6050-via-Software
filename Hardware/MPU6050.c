@@ -83,6 +83,11 @@ void MPU6050_GetData(int16_t *AccX,int16_t *AccY,int16_t *AccZ,
     *GyroZ = (DataH<<8)|DataL;//合成Z轴的十六位数据
 }
 
+uint8_t MPU6050_ReadID(void)
+{
+    return MPU6050_ReadReg(MPU6050_WHO_AM_I);
+}
+
 //方法2：用结构体的方式返回六个返回值
 /*
 void MPU6050_GetData2(MPU6050_Data *data)
