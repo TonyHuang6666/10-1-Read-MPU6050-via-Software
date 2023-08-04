@@ -59,7 +59,7 @@ void IIC_Start(void)//1.IIC起始条件
     IIC_W_SCL(0);
 }
 
-void IIC_Stop(void)//2.IIC终止条件
+void IIC_Pause(void)//2.IIC终止条件
 {
     //1.SCL和SDA都置低电平
     IIC_W_SDA(0);//先拉低SDA，确保后面能产生上升沿

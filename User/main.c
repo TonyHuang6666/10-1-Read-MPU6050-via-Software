@@ -16,7 +16,7 @@ int main(void)
 	IIC_SendByte(0xD2);//1101001 0
 	uint8_t ack = IIC_ReceiveACK();
 
-	IIC_Stop();
+	IIC_Pause();
 	OLED_ShowNum(2, 1, ack, 3);
 	while (1)
 	{
