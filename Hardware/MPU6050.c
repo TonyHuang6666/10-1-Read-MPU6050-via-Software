@@ -1,6 +1,6 @@
 #include "stm32f10x.h"
 #include "IIC.h"//建立在此模块上
-#define SlaveAddress 0xD2 //MPU6050的从机地址
+#define SlaveAddress 0xD0 //MPU6050的从机地址
 
 //封装指定地址的写操作
 void MPU6050_WriteReg(uint8_t reg, uint8_t data)
