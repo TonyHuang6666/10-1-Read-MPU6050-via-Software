@@ -724,6 +724,11 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\MPU6050.h</FilePath>
             </File>
+            <File>
+              <FileName>MPU6050_Reg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\MPU6050_Reg.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -760,5 +765,14 @@
     <components/>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>Project</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>
