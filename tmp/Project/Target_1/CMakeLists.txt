@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2023-08-04T17:02:00
+# CMSIS Build CMakeLists generated on 2023-08-04T19:54:14
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -31,7 +31,7 @@ set(INC_PATHS
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/User"
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/System"
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/10-1 Read MPU6050 via Software/Hardware"
-  "C:/Users/Wendo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"
+  "C:/Users/Wendo/AppData/Local/arm/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"
 )
 
 set(AS_ARM_SRC_FILES
